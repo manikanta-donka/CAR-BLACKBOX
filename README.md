@@ -29,21 +29,8 @@ The UP / DOWN keys are used to navigate
 A long press of UP Key should enter the selected menu
 A long press of DOWN Key should log out
 Idle screen for more than 5 secs should log out
+
+
 View Log:
-Should display all the events captured with log index starting from 0, like
-“EVENT NUMBER” “EVENT SIGNATURE” “EVENT TIME” “SPEED AT THE EVENT”
-The UP and DOWN key will be used to scroll the entries
-Rollover on reaching the max log entries
-The system should be live (capture events occurred) even while viewing the log
-A long press of UP Key should take you back to main menu
-Set Time
-Should show the current time. The Secs field should blink indicating the field to be changed
-The UP key should be used to increment the time. Rollover on reaching max
-The DOWN key will be used to choose the field.
-A long press of UP Key should take you back to main menu
-Event Capture
-Required events have to be captured and stored in the memory
-Every event should have a format as
-“EVENT SIGNATURE” “EVENT TIME” “SPEED AT THE EVENT”
-memory
+Should display all the events captured with log index starting from 0, like “EVENT NUMBER” “EVENT SIGNATURE” “EVENT TIME” “SPEED AT THE EVENT” The UP and DOWN key will be used to scroll the entries rollover on reaching the max log entries the system should be live (capture events occurred) even while viewing the log a long press of UP Key should take you back to main menu set Time should show the current time. The Secs field should blink indicating the field to be changed the UP key should be used to increment the time. Rollover on reaching max the DOWN key will be used to choose the field. A long press of UP Key should take you back to main menu event Capture required events have to be captured and stored in the memory every event should have a format as “EVENT SIGNATURE” “EVENT TIME” “SPEED AT THE EVENT” memory
 The events should be captured real time, no matter which mode you are in
